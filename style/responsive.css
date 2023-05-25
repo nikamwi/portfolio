@@ -7,10 +7,19 @@
     }
     .projects .text h2{
         font-size: 50px;
+    }
+    .icon{
+        display: block;
+    }
+    .navbar{
+        display: none;
     }  
 }
 
 @media only screen and (max-width: 600px) {
+    .icon{
+        display: block;
+    }
     .mobile-menu{
         width: 100%;
     }
