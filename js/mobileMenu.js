@@ -1,18 +1,3 @@
-// const openmenu = document.getElementById("mobilemenu");
-
-// openmenu.addEventListener("click", () => {
-//     let menuMobile = document.querySelector('.mobile-menu');
-//     if (menuMobile.classList.contains('open')) {
-//         menuMobile.classList.remove('open');
-//         document.querySelector('.icon').src = "img/list.png";
-//         document.getElementById("pirveli").style.display = "block"
-//     } else {
-//         menuMobile.classList.add('open');
-//         document.querySelector('.icon').src = "img/close.png";
-//         document.getElementById("pirveli").style.display = "none"
-//     }
-// });
-
 const openMenu = document.getElementById("open");
 const closedMenu = document.getElementById("closed");
 const menu = document.getElementById("closedmenu");
