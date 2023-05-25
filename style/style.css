@@ -14,6 +14,22 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-menu {
+    display: none;
+}
+#closedmenu{
+    width: 100%;
+}
+.icon{
+    width: 30px;
+    cursor: pointer;
+}
 ul{
     display: flex;
 }
@@ -98,6 +114,7 @@ h1{
     width: 130px;
     font-size: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 .About .cveng{
     margin-right: 40px;
@@ -241,8 +258,6 @@ h1{
     height: 40px;
     margin-right: 30px;
 }
-
-
 .contact .right{
     width: 450px;
     display: flex;
@@ -275,3 +290,9 @@ h1{
     background-color: #168156;
     color: #ffffff;
 }
+
+
+
+
+
+

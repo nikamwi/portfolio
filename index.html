@@ -6,27 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>portfolio-nm</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">
-            <i class="ri-code-s-slash-line"></i><h1>Developer</h1>
-        </a>
-        <ul>
-            <li>
-                <a href="#About" class="chabout">About</a>
-            </li>
-            <li>
-                <a href="#projects" class="chproject">Project</a>
-            </li>
-            <li>
-                <a href="#contact" class="chcontact">Contact</a>
-            </li>
-        </ul>
-        <div class="langs">
-            <a href="#" language="english" class="active a">ENG</a>
-            <a href="#" language="georgia" class="a">GE</a>
+        <div id="closedmenu">
+            <div class="menu" id="menu">
+                <a href="#" class="logo">
+                    <i class="ri-code-s-slash-line"></i><h1>Developer</h1>
+                </a>
+                <ul class="navbar">
+                    <li>
+                        <a href="#About" class="chabout">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="chproject">Project</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="chcontact">Contact</a>
+                    </li>
+                </ul>
+                <div class="langs">
+                    <a href="#" language="english" class="active a">ENG</a>
+                    <a href="#" language="georgia" class="a">GE</a>
+                </div>
+                <img class="icon" id="open" src="img/list.png" alt="list">
+            </div> 
+        </div>
+        
+        <div class="mobile-menu" id="mobile-menu">
+            <img class="icon" id="closed" src="img/close.png" alt="list">
+            <ul>
+                <li>
+                    <a href="#About" class="chabout minimenulist">About</a>
+                </li>
+                <li>
+                    <a href="#projects" class="chproject minimenulist">Project</a>
+                </li>
+                <li>
+                    <a href="#contact" class="chcontact minimenulist">Contact</a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
@@ -171,6 +192,7 @@
             emailjs.init("w-pjL2cwW-QAqL_gA");
         })();
     </script>
+    <script src="js/mobileMenu.js"></script>
     <script src="js/languageChange.js"></script>
     <script src="js/sendmail.js"></script>
     <script src="js/readMore.js"></script>  

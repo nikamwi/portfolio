@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+    .About .Abouttext{
+        width: 330px;
+    }
+    .projects .skillsimage img{
+        margin-left: 20px;
+    }
+    .projects .text h2{
+        font-size: 50px;
+    }  
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-menu{
+        width: 100%;
+    }
+    header ul a{
+        margin-left: 0;
+    }
+    header ul li{
+        margin-bottom: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+    .projecth1{
+        font-size: 80px;
+    }
+    .projects .skills h2{
+        font-size: 50px;
+    }
+    .projects .skillsimage{
+        display: flex;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 140px;
+    }
+    .About{
+        flex-direction: column-reverse;
+    }
+    .portfolioh1{
+        text-align: center;
+    }
+    .proect{
+        flex-direction: column;
+        text-align: center;
+    }
+    .projects .left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+}
